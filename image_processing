@@ -1,3 +1,7 @@
+# this script loads a directory with images, resizes all of them to 10x10 pixel images and makes them black/white (binary)
+# the processed images are saved in a given location
+# after processing the images, a csv is written with an image per row and 0's and 1's for the white/black pixels
+
 import matplotlib.pyplot as plt
 import os
 import imageio
